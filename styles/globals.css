@@ -1,0 +1,38 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+font-family: Noto Sans Bengali;
+}
+.card {
+    padding: 10px;
+    max-width: 290px; 
+     
+  }
+  .content {
+    margin-top: 1rem;
+  }
+  .content .header {
+    margin-top: 0.5rem;
+  }
+  .image {
+    width: 50%;
+    height: 100px;
+    border-radius: 4px;
+    padding: 9px;
+    margin: 0 auto;
+  }
+  .title {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.35rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 14px;
+  }
+  .description {
+    line-height: 1.375;
+  }
